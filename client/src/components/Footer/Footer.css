@@ -1,0 +1,96 @@
+.footer {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  background: var(--primary-color);
+  /* position: absolute;
+  width: 100%; */
+}
+
+.footer_text {
+  line-height: 30px;
+  color: rgba(255, 255, 255, 0.735); /* Fixed RGBA syntax */
+}
+
+.footer_quick-links .list-group-item {
+  background: transparent !important;
+}
+
+.footer_quick-links .list-group-item a {
+  color: rgba(255, 255, 255, 0.735); /* Fixed RGBA syntax */
+}
+
+.quick_links-title {
+  margin-bottom: 30px;
+  color: #ffffff;
+  font-size: 1.1rem;
+}
+
+.footer_contact .list-group-item span,
+.footer_contact .list-group-item p {
+  color: rgba(255, 255, 255, 0.735); /* Fixed RGBA syntax */
+}
+
+.footer_contact .list-group-item span {
+  font-size: 1.2rem;
+}
+
+.footer_contact .list-group-item p {
+  font-size: 0.9rem;
+}
+
+.link-button {
+  background: none;
+  border: none;
+  color: rgba(255, 255, 255, 0.735);
+  cursor: pointer;
+  font-size: inherit;
+}
+
+.footer_quick-links1 {
+  padding: 10px; /* Padding for spacing inside the container */
+  color: white; /* Text color for any text inside the container */
+  text-align: center; /* Center-aligns the content */
+  margin-left: 1rem;
+}
+
+.quick_links-title {
+  margin-bottom: 20px; /* Space below the title */
+  font-size: 1.5rem; /* Larger text for visibility */
+}
+
+.images {
+  margin-top: -1rem;
+
+  display: flex; /* Flexbox to layout images */
+  flex-direction: column; /* Stack images vertically */
+  justify-content: center; /* Center the images vertically */
+  align-items: center; /* Align images horizontally in the center */
+  /* gap: -12px; Space between each image */
+}
+
+.images img {
+  margin-left: -2.5rem;
+  object-fit: contain;
+  margin-bottom: -2rem; /* Ensure images are scaled properly without being cut off */
+}
+
+.mastercard,
+.visacard,
+.easypaisa,
+.cod {
+  transition: transform 0.3s ease; /* Smooth transform on hover */
+}
+
+.mastercard:hover,
+.visacard:hover,
+.easypaisa:hover,
+.cod:hover {
+  transform: scale(1.1); /* Slightly enlarge the image on hover */
+}
+
+.footer_copyright {
+  color: rgba(255, 255, 255, 0.735); /* Fixed RGBA syntax */
+  font-size: 0.9rem;
+  margin-top: 50px;
+  text-align: center;
+}

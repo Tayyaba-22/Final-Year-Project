@@ -1,0 +1,283 @@
+.customization-container {
+  text-align: center;
+  background-color: rgb(215, 217, 220);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  height: 180vh; /* Fixed height */
+  overflow: hidden; /* Prevents the background from growing */
+}
+
+.heading {
+  background: linear-gradient(rgba(0, 0, 0, 0.562), rgba(0, 0, 0, 0.562)),
+    url("../assets/images/common-section-bg.jpg") no-repeat center center;
+  background-size: cover;
+  padding: 100px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  width: 100%;
+}
+
+.button1 {
+  display: block;
+  padding: 10px 20px;
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 1rem;
+  width: 15rem;
+}
+
+.button1:hover {
+  background-color: rgb(56, 90, 148);
+}
+
+.button9 {
+  display: block;
+  padding: 10px 15px;
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 1rem;
+  width: 8rem;
+  margin-left: 0.5rem;
+}
+
+.button9:hover {
+  background-color: rgb(56, 90, 148);
+}
+
+.button10 {
+  display: block;
+  padding: 10px 15px;
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 1rem;
+  width: 18.7rem;
+}
+
+.button10:hover {
+  background-color: rgb(56, 90, 148);
+}
+
+.color-picker-button {
+  margin-top: 1rem;
+}
+
+.design-button {
+  margin-top: 1rem;
+}
+
+.sidebar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  width: 100%;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  width: 260px;
+  background-color: blue;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.other-options {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.color-picker-section {
+  margin-top: 10px;
+}
+
+.item-selection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.image-container {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  height: 300px;
+}
+
+.selected-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.color-overlay {
+  background-color: transparent;
+  mix-blend-mode: multiply;
+}
+
+.logos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.text-input {
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  max-width: 25rem;
+}
+
+.text-toolbar {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 10px;
+}
+
+.text-toolbar > div {
+  margin-top: 10px;
+}
+
+.text-toolbar label {
+  margin-right: 10px;
+}
+
+.fontfamily {
+  margin-left: -73rem;
+}
+
+.textcolor {
+  margin-left: -86rem;
+}
+
+.main-content {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 20px;
+  width: 100%;
+  /* Ensure it stays relative to its container */
+}
+
+.action-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 10px; /* Adjust as needed */
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.main-box {
+  background-color: rgb(108, 168, 203);
+  width: 20rem;
+}
+
+.other-box {
+  background-color: rgb(108, 168, 203);
+}
+
+.button2,
+.button3,
+.button4,
+.button5 {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 5rem;
+  margin-top: 15.5rem;
+  margin-left: 1rem;
+}
+
+.button2 {
+  margin-left: 67rem;
+}
+
+.head {
+  display: flex;
+  flex-direction: column;
+  display: inline-block;
+  justify-content: center;
+}
+
+.Title,
+.short-description,
+.description,
+.price,
+.add-to-cart-button {
+  position: absolute;
+  top: 30rem; /* Adjust based on your layout*/
+  right: 3%;
+  text-align: left;
+  color: black;
+}
+
+.Title {
+  margin-top: -7rem;
+  margin-left: 20rem;
+}
+
+.short-description {
+  margin-top: -3rem;
+  margin-left: 20rem;
+}
+
+.description {
+  margin-top: 1rem;
+  margin-left: 20rem;
+}
+
+.price {
+  margin-top: 5rem;
+  margin-left: 20rem;
+}
+
+.add-to-cart-button {
+  margin-top: 9rem;
+  margin-left: 20rem;
+  display: block;
+  padding: 10px 15px;
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}

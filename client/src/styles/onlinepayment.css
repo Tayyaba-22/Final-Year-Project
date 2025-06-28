@@ -1,0 +1,68 @@
+.billing_form .form_group input {
+  border: 1px solid var(--card-bg-02);
+}
+
+.checkout_cart {
+  padding: 20px;
+  background: var(--primary-color);
+  color: #fff;
+  border-radius: 5px;
+}
+
+.checkout_cart h6,
+h4 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.checkout_cart h6 {
+  margin-bottom: 20px;
+}
+
+.checkout_cart h4 {
+  border-top: 1px solid rgba(221, 221, 221, 0.253);
+  padding-top: 20px;
+}
+
+.input-icon {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.input-icon .icon1 {
+  margin-top: -0.2rem;
+  position: absolute;
+  left: 10px;
+  color: #ff4000; /* Icon color */
+}
+
+.input-icon .icon {
+  margin-top: -0.2rem;
+  position: absolute;
+  left: 10px;
+  color: #1f89f9; /* Icon color */
+}
+
+.input-icon input {
+  padding-left: 40px; /* Make space for the icon */
+}
+
+.Heading {
+  margin-top: 0.2rem;
+  margin-left: 18rem;
+  margin-bottom: -0.2rem;
+  font-size: large;
+  font-weight: bold;
+}
+
+.heading2 {
+  font-size: larger;
+  font-weight: bold;
+}
+
+.confirmed {
+  margin-left: 49rem;
+  margin-top: -30rem;
+}

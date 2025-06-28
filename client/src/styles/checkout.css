@@ -1,0 +1,59 @@
+.billing_form .form_group input {
+  border: 1px solid var(--card-bg-02);
+}
+
+.checkout_cart {
+  padding: 20px;
+  background: var(--primary-color);
+  color: #fff;
+  border-radius: 5px;
+}
+
+.checkout_cart h6,
+h4 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.checkout_cart h6 {
+  margin-bottom: 20px;
+}
+
+.checkout_cart h4 {
+  border-top: 1px solid rgba(221, 221, 221, 0.253);
+  padding-top: 20px;
+}
+
+.order {
+  margin-left: 50rem;
+  margin-top: -45rem;
+}
+.radio1 {
+  margin-left: 3rem;
+}
+.radio2 {
+  margin-left: 20rem;
+}
+
+.quantity {
+  margin-top: -2rem;
+  background-color: rgb(255, 255, 255, 0.5);
+  color: var(--primary-color);
+  border-radius: 1rem;
+  width: 1.5rem;
+  margin-left: -0.75rem;
+  padding-left: 8px;
+  font-weight: bold;
+}
+.text {
+  color: white;
+}
+@media only screen and (max-width: 768px) {
+  .radio1 {
+    margin-left: 1rem;
+  }
+  .radio2 {
+    margin-left: 2rem;
+  }
+}
