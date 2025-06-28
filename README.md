@@ -38,3 +38,8 @@ An AI-powered e-commerce platform where users can design and personalize clothin
    ```bash
    git clone https://github.com/Tayyaba-22/Final-Year-Project.git
    cd Final-Year-Project/client
+
+---
+## 🌐 Live Demo
+
+🔗 [Click here to try it live](https://dynamic-malasada-2ea697.netlify.app/home)
