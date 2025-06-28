@@ -28,10 +28,7 @@ An AI-powered e-commerce platform where users can design and personalize clothin
 
 | Design Page | Customization Page |
 |-------------|--------------------|
-| ![Design](![Screenshot1](https://github.com/user-attachments/assets/5d8ee423-5d3d-4d11-9f44-ca2f3a3d6564)
-) | ![Customization](![Screenshot2](https://github.com/user-attachments/assets/f973128c-3519-43ef-815c-4a3bdc2cd992)
-) |
-
+| ![Design](https://github.com/user-attachments/assets/5d8ee423-5d3d-4d11-9f44-ca2f3a3d6564) | ![Customization](https://github.com/user-attachments/assets/f973128c-3519-43ef-815c-4a3bdc2cd992) |
 
 ---
 
