@@ -42,4 +42,4 @@ An AI-powered e-commerce platform where users can design and personalize clothin
 ---
 ## 🌐 Live Demo
 
-🔗 [Click here to try it live](https://dynamic-malasada-2ea697.netlify.app/home)
+🔗 [Click here to try it live]((https://dynamic-malasada-2ea697.netlify.app)
